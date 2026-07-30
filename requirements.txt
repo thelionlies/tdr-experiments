@@ -1,0 +1,18 @@
+# Generated for an NVIDIA L4 (24GB) GPU target. Requires a CUDA-compatible
+# torch build (not the CPU-only wheel) for anything beyond
+# test_common_local.py -- if `pip install torch` resolves a CPU-only
+# wheel on your platform, install from the CUDA-specific index instead,
+# e.g.: pip install torch --index-url https://download.pytorch.org/whl/cu126
+#
+# Versions below are minimums confirmed to install and import together
+# (QLoRA fine-tuning of Llama-3-architecture 8B models, mid-2026).
+
+torch>=2.12.0
+transformers>=5.9.0
+peft>=0.20.0
+bitsandbytes>=0.50.0
+trl>=1.9.2
+datasets>=4.8.5
+accelerate>=1.14.0
+pandas>=3.0.2
+scikit-learn>=1.7.1

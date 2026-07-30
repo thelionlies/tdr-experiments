@@ -1,0 +1,13 @@
+evals/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Raw corpus copies -- large, source data already exists elsewhere;
+# only needed if re-running dataprep.ipynb / fewshot_prep.ipynb from
+# scratch, not needed for finetune.py / run_eval.py / compute_metrics.py.
+
+data/TDR/
+data/TDR_train/
+data/TDR_test/
